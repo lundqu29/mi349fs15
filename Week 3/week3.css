@@ -1,0 +1,38 @@
+
+body {
+  background-image: url("wood-background1.jpg");
+  margin: 0;
+  font-family: Helvetica;
+}
+div.container {
+margin: 0 auto;
+width: 700px;
+padding-top: 200px;
+background: #fff url(alton-brown-onion-dip.jpg) no-repeat top center;
+-moz-box-shadow: 0 0 5px 5px #484848;
+-webkit-box-shadow: 0 0 5px 5px#484848;
+box-shadow: 0 0 5px 5px #484848 ;
+}
+
+.recipe {
+padding: 20px 40px;
+background: #fff;
+}
+#ab-oniondip {
+
+}
+
+
+.recipe h2 {
+font-style: italic;
+color: #333366
+}
+.recipe h1 {
+text-align: center;
+font-size: 58px;
+font-family: 'Brush Script MT', cursive;
+font-weight: bold;
+margin-top: 10px;
+color: #333366
+
+}
