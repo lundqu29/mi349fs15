@@ -1,0 +1,49 @@
+
+.container {
+  margin: 0 auto;
+  width: 850px;
+  background: #F8F8F8;
+  padding: 25px;
+}
+
+.longpitch {
+margin-left: 50px;
+margin-right: 50px;
+font-size: 20px;
+}
+.shortpitch {
+padding: 20px 40px;
+
+}
+#JessicaName {
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background: #99CCCC;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  border: 1px; solid #ccc;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.img {
+diplay: inline-block;
+padding: 10px;
+width: 200px;
+border: 1px; solid #ccc;
+margin-right: 20px;
+margin-left: 20px;
+}
