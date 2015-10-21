@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  width: 850px;
+  height: 800px;
+  background: #FFFFFF;
+  padding: 25px;
+}
+
+.longpitch {
+margin-left: 50px;
+margin-right: 50px;
+font-size: 20px;
+}
+body {
+  background-image: url("back.png");
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+  color: #900000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
