@@ -1,0 +1,50 @@
+
+.column {
+    vertical-align: top;
+    border: 1px solid;
+    float: left;
+    background: #FF6666;
+}
+@media all and (min-width:1000px) {
+  .column {
+    width:33%;
+  }
+}
+@media all and (max-width:800px) {
+  .column {
+    width:45%;
+  }
+}
+@media all and (max-width:400px) {
+  .column {
+    width:100%;
+  }
+}
+
+
+
+
+
+
+
+ /* @media (min-width:1200px) {
+.column {
+width:100%
+}
+@media (min-width:800px) {
+.column {
+width:66%
+}
+@media (min-width:400px) {
+.column {
+width:33%
+}
+}
+@media
+(-webkit-min-device-pixel-ratio: 2)
+(min-resolution: 192dpi) {
+  /*Retina */
+}
+
+
+/* use fluid widths, percentages instead of pixels 33%. Use Floats or Inline blocks*/
