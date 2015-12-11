@@ -31,6 +31,8 @@ h4 {
   font-size: 30px;
   text-align: center;
   letter-spacing: 5px;
+  margin-left: 55px;
+  margin-right: 27px;
 }
 h5 {
   font-size: 25px;
@@ -38,6 +40,17 @@ h5 {
   letter-spacing: 3px;
   margin-left: 55px;
   margin-right: 27px;
+}
+h6 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-left: 55px;
+  margin-right: 27px;
+  text-decoration: underline;
+}
+h7 {
+  font-size: 45px;
 }
 
 .container {
@@ -48,21 +61,45 @@ h5 {
   font-family: 'Wire One', sans-serif;
   padding-top: 25px;
 }
+.column {
+  display: flex;
+  border: 1px solid;}
+
 .buttons {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #upload {
   margin-left: 75px;
   margin-right: 75px;
+  border: 5px solid black;
+  padding:17px;
 }
 #channel {
   margin-left: 75px;
   margin-right: 75px;
+  border: 5px solid black;
+  padding:17px;
 }
 #branding {
   margin-left: 75px;
   margin-right: 75px;
+  border: 5px solid black;
+  padding:17px;
+}
+#schedule {
+  margin-left: 75px;
+  margin-right: 75px;
+  border: 5px solid black;
+  padding:17px;
+}
+#fit {
+  margin-left: 75px;
+  margin-right: 75px;
+  border: 5px solid black;
+  padding:17px;
 }
 
 
@@ -101,13 +138,14 @@ h5 {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 a:visited {
     color: inherit;
 }
 
 a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 .dropdown ul {
@@ -122,9 +160,15 @@ a:hover {
 }
 
 ul {
-  list-style-type: none;
+  list-style: decimal;
 
 }
 li {
   font-size 17px;
+
+}
+
+.galleria {
+  height: 600px;
+  width: 800px;
 }
