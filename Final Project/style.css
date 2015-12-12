@@ -1,0 +1,133 @@
+body {
+  font-family: 'Wire One', sans-serif;
+
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 0
+}
+
+.highlight {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 8px;
+  margin: 0 auto;
+}
+h3{
+  font-size: 28px;
+}
+h4 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-left: 55px;
+  margin-right: 27px;
+}
+
+h6 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-left: 55px;
+  margin-right: 27px;
+  text-decoration: underline;
+}
+
+
+.container {
+  display: flex;
+  max-width: 800px;
+  margin-top: 5px;
+  margin: 0 auto;
+  font-family: 'Wire One', sans-serif;
+  padding-top: 25px;
+}
+
+.box {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #eee;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+
+.box:hover {
+  background: #f00;
+}
+
+.fa-play {
+  color: #222;
+  position: relative;
+  top: 35px;
+  left: 0;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.box:hover .fa-play {
+  color: #fff;
+}
+
+.dropdown {
+  display:inline-block;
+  text-align: center;
+  width: 200px;
+}
+a:visited, a {
+  color: black;
+}
+
+.dropdown ul {
+  display: none;
+  height: 0;
+  padding: 0;
+}
+
+.dropdown:hover ul {
+  display: block;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+
+}
+li {
+  font-size 17px;
+}
+
+body {background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );}
+
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .highlight {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px){
+.dash {display: none;}
+}
